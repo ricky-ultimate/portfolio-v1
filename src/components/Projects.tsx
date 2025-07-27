@@ -7,9 +7,9 @@ export function Projects() {
       description:
         "A secure, real-time chat application with advanced chat room functionality and WebSocket integration. Built with NestJS backend, PostgreSQL for data persistence, and Redis for session management and real-time messaging.",
       technologies: ["NestJS", "PostgreSQL", "Redis", "WebSocket", "NextJS"],
-      githubLink: "https://github.com/ricky-ultimate",
-      liveLink: "#",
-      imageSrc: "/images/convo-project.jpg", // Add your image path here
+      githubLink: "https://github.com/ricky-ultimate/convo-frontend",
+      liveLink: "https://convo-frontend-seven.vercel.app/",
+      imageSrc: "/images/convo-project.png", // Add your image path here
       imageAlt: "Convo Real-time Chat Application",
       featured: true,
       reverse: true,

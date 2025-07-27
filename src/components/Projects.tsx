@@ -34,7 +34,7 @@ export function Projects() {
           <span className="text-emerald-400 font-mono text-lg sm:text-xl mr-2">
             03.
           </span>{" "}
-          Some Things I've Built
+          Some Things I&apos;ve Built
         </h2>
 
         <div className="space-y-12 sm:space-y-16">

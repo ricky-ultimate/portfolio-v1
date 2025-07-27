@@ -15,7 +15,7 @@ export function Hero({ scrollToSection }: HeroProps) {
             I build things for the web.
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl leading-relaxed">
-            I'm a Full Stack Software Engineer with strong backend expertise,
+            I&apos;m a Full Stack Software Engineer with strong backend expertise,
             specializing in building scalable web applications. Currently
             studying Computer Science and Mathematics at Mountain Top
             University, with a passion for creating innovative, efficient

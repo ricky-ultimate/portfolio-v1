@@ -12,7 +12,7 @@ export function About() {
           <div className="md:col-span-2">
             <div className="space-y-4 text-slate-400 leading-relaxed">
               <p>
-                Hi, I'm Riches Ogigi, a Full Stack Software Engineer currently
+                Hi, I&apos;m Riches Ogigi, a Full Stack Software Engineer currently
                 pursuing Computer Science and Mathematics at Mountain Top
                 University. I specialize in building scalable backend systems
                 and have developed projects like a real-time chat application
@@ -29,7 +29,7 @@ export function About() {
               <p>
                 I bring value by creating robust applications that can handle
                 growth and complexity while maintaining performance, making your
-                development process smoother and more efficient. I'd love to
+                development process smoother and more efficient. I&apos;d love to
                 schedule a brief conversation to discuss how my technical skills
                 align with your current projects and team needs.
               </p>
@@ -38,7 +38,7 @@ export function About() {
                 business impact.
               </p>
               <p>
-                Here are a few technologies I've been working with recently:
+                Here are a few technologies I&apos;ve been working with recently:
               </p>
               <div className="grid grid-cols-2 gap-2 mt-4">
                 <div className="flex items-center">

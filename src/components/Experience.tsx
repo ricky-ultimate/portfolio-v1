@@ -6,7 +6,7 @@ export function Experience() {
           <span className="text-emerald-400 font-mono text-lg sm:text-xl mr-2">
             02.
           </span>{" "}
-          Where I've Worked & Studied
+          Where I&apos;ve Worked & Studied
         </h2>
         <div className="space-y-8">
           <div className="border-l-2 border-slate-700 pl-6 sm:pl-8 relative">

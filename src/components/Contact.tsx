@@ -8,15 +8,15 @@ export function Contact() {
           <span className="text-emerald-400 font-mono text-lg sm:text-xl mr-2">
             04.
           </span>{" "}
-          What's Next?
+          What&apos;s Next?
         </h2>
         <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-200 mb-6 sm:mb-8">
           Get In Touch
         </h3>
         <p className="text-slate-400 text-base sm:text-lg leading-relaxed mb-8 sm:mb-12">
-          Although I'm not currently looking for any new opportunities, my inbox
+          Although I&apos;m not currently looking for any new opportunities, my inbox
           is always open. Whether you have a question or just want to say hi,
-          I'll try my best to get back to you!
+          I&apos;ll try my best to get back to you!
         </p>
         <Link
           href="mailto:richesogigi0@gmail.com"

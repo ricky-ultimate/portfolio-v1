@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function About() {
   return (
     <section id="about" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
@@ -70,8 +72,23 @@ export function About() {
           </div>
           <div className="flex justify-center md:justify-end">
             <div className="relative group">
-              <div className="w-64 h-64 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-lg"></div>
-              <div className="absolute top-4 left-4 w-64 h-64 border-2 border-emerald-400 rounded-lg group-hover:top-2 group-hover:left-2 transition-all duration-300"></div>
+              {/* Background gradient square - made larger */}
+              <div className="w-72 h-72 sm:w-80 sm:h-80 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-lg"></div>
+
+              {/* Image container */}
+              <div className="absolute top-4 left-4 w-72 h-72 sm:w-80 sm:h-80 rounded-lg overflow-hidden group-hover:top-2 group-hover:left-2 transition-all duration-300">
+                <Image
+                  src="/images/profile-photo.jpg" // Replace with your actual image path
+                  alt="Riches Ogigi - Full Stack Software Engineer"
+                  width={320}
+                  height={320}
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                  priority
+                />
+              </div>
+
+              {/* Border frame */}
+              <div className="absolute top-4 left-4 w-72 h-72 sm:w-80 sm:h-80 border-2 border-emerald-400 rounded-lg group-hover:top-2 group-hover:left-2 transition-all duration-300 pointer-events-none"></div>
             </div>
           </div>
         </div>

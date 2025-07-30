@@ -34,15 +34,17 @@ export function ProjectCard({
         <div className="relative group">
           <div className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
             {imageSrc ? (
-              <Image
-                src={imageSrc}
-                alt={imageAlt || title}
-                width={600}
-                height={400}
-                className="w-full h-48 sm:h-64 object-cover"
-              />
+              <div className="relative aspect-video w-full">
+                <Image
+                  src={imageSrc}
+                  alt={imageAlt || title}
+                  fill
+                  className="object-contain bg-slate-900"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 50vw"
+                />
+              </div>
             ) : (
-              <div className="h-48 sm:h-64 flex items-center justify-center bg-slate-700">
+              <div className="aspect-video flex items-center justify-center bg-slate-700">
                 <div className="text-center">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-emerald-400/20 rounded-lg mx-auto mb-4 flex items-center justify-center">
                     <span className="text-emerald-400 text-xl sm:text-2xl">

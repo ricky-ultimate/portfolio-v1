@@ -63,7 +63,7 @@ export default function ElevatorPitch() {
                         Video Coming Soon
                       </h3>
                       <p className="text-slate-400 max-w-md mx-auto">
-                        Your browser doesn't support video playback. The elevator pitch video will be available soon!
+                        Your browser doesn&apos;t support video playback. The elevator pitch video will be available soon!
                       </p>
                     </div>
 
@@ -102,7 +102,7 @@ export default function ElevatorPitch() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-6">
               <h2 className="text-2xl font-bold text-slate-200 mb-4">
-                What You'll Learn About Me
+                What You&apos;ll Learn About Me
               </h2>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -169,11 +169,11 @@ export default function ElevatorPitch() {
           {/* Call to Action */}
           <div className="text-center bg-slate-800/30 rounded-xl p-8 border border-slate-700">
             <h2 className="text-2xl font-bold text-slate-200 mb-4">
-              Let's Connect
+              Let&apos;s Connect
             </h2>
             <p className="text-slate-400 mb-6 max-w-2xl mx-auto">
               Interested in learning more about my experience and how I can contribute to your team?
-              I'd love to have a conversation about potential opportunities.
+              I&apos;d love to have a conversation about potential opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

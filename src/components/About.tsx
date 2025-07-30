@@ -14,33 +14,43 @@ export function About() {
           <div className="md:col-span-2">
             <div className="space-y-4 text-slate-400 leading-relaxed">
               <p>
-                Hi, I&apos;m Riches Ogigi, a Full Stack Software Engineer currently
-                pursuing Computer Science and Mathematics at Mountain Top
-                University. I specialize in building scalable backend systems
-                and have developed projects like a real-time chat application
-                with WebSocket integration and a university course management
-                system that handles scheduling conflicts and role-based access
-                control.
+                I'm Riches Ogigi, a Full Stack Software Engineer and Computer
+                Science Mathematics student at Mountain Top University who
+                approaches development with both analytical precision and
+                intuitive design thinking.
               </p>
               <p>
-                My core strengths are API development, database architecture,
-                and system optimization. What sets me apart is my ability to
-                think architecturally - I build solutions that are not just
-                functional, but maintainable and scalable from day one.
+                Rather than just solving immediate problems, I architect systems
+                that grow with their users. My holistic perspective connects
+                user experience, system performance, and business objectives
+                into solutions designed for long-term success. This mindset has
+                led me to specialize in building applications that handle
+                increasing complexity without sacrificing performance or
+                maintainability.
               </p>
               <p>
-                I bring value by creating robust applications that can handle
-                growth and complexity while maintaining performance, making your
-                development process smoother and more efficient. I&apos;d love to
-                schedule a brief conversation to discuss how my technical skills
-                align with your current projects and team needs.
+                With expertise in API development, database architecture, and
+                system optimization, I excel at translating abstract
+                requirements into robust technical foundations. I thrive in
+                collaborative environments where strategic thinking meets
+                hands-on implementation.
               </p>
               <p>
-                Together, we can build software solutions that drive real
-                business impact.
+                With expertise in API development, database architecture, and
+                system optimization, I excel at translating abstract
+                requirements into robust technical foundations. I thrive in
+                collaborative environments where strategic thinking meets
+                hands-on implementation.
               </p>
               <p>
-                Here are a few technologies I&apos;ve been working with recently:
+                Currently seeking opportunities with teams that value both
+                technical excellence and meaningful impact, I&apos;m passionate about
+                creating software that doesn&apos;t just serve users—it empowers them
+                to achieve more.
+              </p>
+              <p>
+                Here are a few technologies I&apos;ve been working with
+                recently:
               </p>
               <div className="grid grid-cols-2 gap-2 mt-4">
                 <div className="flex items-center">

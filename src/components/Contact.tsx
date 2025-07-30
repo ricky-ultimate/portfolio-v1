@@ -14,9 +14,10 @@ export function Contact() {
           Get In Touch
         </h3>
         <p className="text-slate-400 text-base sm:text-lg leading-relaxed mb-8 sm:mb-12">
-          Although I&apos;m not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
-          I&apos;ll try my best to get back to you!
+          I&apos;m currently open to new opportunities and excited to explore roles
+          where I can make meaningful impact. Feel free to reach out whether you
+          have a position in mind, want to discuss potential partnerships, or
+          simply want to connect. I&apos;d love to hear from you!
         </p>
         <Link
           href="mailto:richesogigi0@gmail.com"

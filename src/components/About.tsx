@@ -10,8 +10,8 @@ export function About() {
           </span>{" "}
           About Me
         </h2>
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-          <div className="md:col-span-2">
+        <div className="grid md:grid-cols-5 gap-8">
+          <div className="md:col-span-3">
             <div className="space-y-4 text-slate-400 leading-relaxed">
               <p>
                 I'm Riches Ogigi, a Full Stack Software Engineer and Computer
@@ -80,7 +80,7 @@ export function About() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center md:justify-end">
+          <div className="md:col-span-2 flex justify-center md:justify-start md:ml-8">
             <div className="relative group">
               {/* Background gradient square - made larger */}
               <div className="w-72 h-72 sm:w-80 sm:h-80 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-lg"></div>
@@ -88,7 +88,7 @@ export function About() {
               {/* Image container */}
               <div className="absolute top-4 left-4 w-72 h-72 sm:w-80 sm:h-80 rounded-lg overflow-hidden group-hover:top-2 group-hover:left-2 transition-all duration-300">
                 <Image
-                  src="/images/profile-photo.jpg" // Replace with your actual image path
+                  src="/images/profile-photo.jpg"
                   alt="Riches Ogigi - Full Stack Software Engineer"
                   width={320}
                   height={320}

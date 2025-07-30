@@ -40,51 +40,58 @@ export default function ElevatorPitch() {
           {/* Video Section */}
           <div className="mb-12">
             <div className="relative bg-slate-800/50 rounded-xl border-2 border-slate-700 overflow-hidden">
-              <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-slate-800 to-slate-900">
-                <div className="text-center space-y-6">
-                  {/* Play Button Icon */}
-                  <div className="w-20 h-20 bg-emerald-400/20 rounded-full flex items-center justify-center mx-auto group hover:bg-emerald-400/30 transition-colors cursor-pointer">
-                    <div className="w-0 h-0 border-l-8 border-l-emerald-400 border-t-6 border-t-transparent border-b-6 border-b-transparent ml-1"></div>
-                  </div>
+              <video
+                className="w-full aspect-video bg-gradient-to-br from-slate-800 to-slate-900"
+                controls
+                poster="/images/elevator-pitch-thumbnail.jpg" // Replace with your thumbnail
+                preload="metadata"
+              >
+                <source src="/videos/elevator-pitch.mp4" type="video/mp4" />
+                <source src="/videos/elevator-pitch.webm" type="video/webm" />
 
-                  {/* Placeholder Text */}
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-semibold text-slate-200">
-                      Video Coming Soon
-                    </h3>
-                    <p className="text-slate-400 max-w-md mx-auto">
-                      I'm currently preparing my elevator pitch video. Check back soon to
-                      learn more about my journey and passion for software engineering!
-                    </p>
-                  </div>
+                {/* Fallback content for browsers that don't support video */}
+                <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-slate-800 to-slate-900">
+                  <div className="text-center space-y-6">
+                    {/* Play Button Icon */}
+                    <div className="w-20 h-20 bg-emerald-400/20 rounded-full flex items-center justify-center mx-auto group hover:bg-emerald-400/30 transition-colors cursor-pointer">
+                      <div className="w-0 h-0 border-l-8 border-l-emerald-400 border-t-6 border-t-transparent border-b-6 border-b-transparent ml-1"></div>
+                    </div>
 
-                  {/* Tech Stack Preview */}
-                  <div className="flex flex-wrap justify-center gap-3 pt-4">
-                    {["TypeScript", "NestJS", "PostgreSQL", "React", "NextJS"].map((tech) => (
-                      <span
-                        key={tech}
-                        className="px-3 py-1 bg-slate-700/50 text-emerald-400 rounded-full text-sm font-mono border border-emerald-400/20"
-                      >
-                        {tech}
-                      </span>
-                    ))}
+                    {/* Placeholder Text */}
+                    <div className="space-y-3">
+                      <h3 className="text-xl font-semibold text-slate-200">
+                        Video Coming Soon
+                      </h3>
+                      <p className="text-slate-400 max-w-md mx-auto">
+                        Your browser doesn't support video playback. The elevator pitch video will be available soon!
+                      </p>
+                    </div>
+
+                    {/* Tech Stack Preview */}
+                    <div className="flex flex-wrap justify-center gap-3 pt-4">
+                      {["TypeScript", "NestJS", "PostgreSQL", "React", "NextJS"].map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1 bg-slate-700/50 text-emerald-400 rounded-full text-sm font-mono border border-emerald-400/20"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
+              </video>
 
-              {/* Video Controls Placeholder */}
+              {/* Video Info */}
               <div className="bg-slate-800 px-6 py-4 border-t border-slate-700">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
-                    <div className="w-8 h-8 bg-slate-700 rounded-full"></div>
                     <div className="text-sm text-slate-400 font-mono">
-                      Duration: ~60 seconds
+                      Duration: ~60 seconds | My Professional Introduction
                     </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-6 h-6 bg-slate-700 rounded"></div>
-                    <div className="w-6 h-6 bg-slate-700 rounded"></div>
-                    <div className="w-6 h-6 bg-slate-700 rounded"></div>
+                  <div className="text-xs text-slate-500 font-mono">
+                    HD Quality Available
                   </div>
                 </div>
               </div>

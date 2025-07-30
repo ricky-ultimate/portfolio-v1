@@ -45,7 +45,7 @@ export function About() {
               <p>
                 Currently seeking opportunities with teams that value both
                 technical excellence and meaningful impact, I&apos;m passionate about
-                creating software that doesn&apos;t just serve users—it empowers them
+                creating software that doesn&apos;t just serve users, it empowers them
                 to achieve more.
               </p>
               <p>

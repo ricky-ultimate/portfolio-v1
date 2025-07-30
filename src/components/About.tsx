@@ -14,7 +14,7 @@ export function About() {
           <div className="md:col-span-3">
             <div className="space-y-4 text-slate-400 leading-relaxed">
               <p>
-                I'm Riches Ogigi, a Full Stack Software Engineer and Computer
+                I&apos;m Riches Ogigi, a Full Stack Software Engineer and Computer
                 Science Mathematics student at Mountain Top University who
                 approaches development with both analytical precision and
                 intuitive design thinking.
